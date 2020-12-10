@@ -41,6 +41,6 @@
 
 Ao terminar o teste, solicite um pull request. 
 
-Em caso de dúvidas, envie e-mail para l-tec-recrutamento-frontend@grupofolha.com.br.
+Em caso de dúvidas, envie e-mail para raphael.engel@itau-unibanco.com.br.
 
 **Boa sorte!**
