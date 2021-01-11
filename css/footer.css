@@ -1,0 +1,82 @@
+@import url('global.css');
+
+
+
+#back-to-top{
+    width: 100%;
+    padding: 10px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+    
+}
+
+#back-to-top a {
+    
+    width: 200px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+#infos{
+    background-color: var(--color-font);
+    padding: 10px 0 25px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#infos p {
+    font-size: 1.2rem;
+    max-width: 60%;
+    margin-left: 20px;
+}
+
+#infos #logo-footer{
+    width: 132px;
+    height: 54px;
+    display: block;
+    margin: 0 50px;
+    background: url(../slices/desktop/logo_footer.png) no-repeat;
+    font-size: 0;
+}
+
+/** TABLET **/
+@media (min-width: 501px) and (max-width: 980px){
+    
+    #infos #logo-footer{
+        width: 131px;
+        height: 66px;
+        
+        margin: 0 50px;
+        background: url(../slices/tablet/logo_footer.png) no-repeat;
+        
+    }
+
+}
+
+/** Mobile **/
+
+@media (max-width: 500px){
+
+    #infos{
+        justify-content: center;
+    }
+    
+    #infos #logo-footer{
+        display: none;
+        
+    }
+
+    #infos p {
+        
+        margin-left: 0px;
+    }
+
+}
